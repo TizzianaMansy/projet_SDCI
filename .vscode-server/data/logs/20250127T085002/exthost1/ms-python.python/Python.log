@@ -1,0 +1,53 @@
+2025-01-27 08:50:37.548 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-27 08:50:37.548 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-01-27 08:50:37.548 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-27 08:50:37.548 [info] Experiment 'pythonTestAdapter' is active
+2025-01-27 08:50:37.548 [info] Native locator: Refresh started
+2025-01-27 08:50:37.548 [info] Native locator: Refresh started
+2025-01-27 08:50:37.552 [info] > pyenv which python
+2025-01-27 08:50:37.552 [info] cwd: .
+2025-01-27 08:50:41.695 [info] Python interpreter path: /bin/python3
+2025-01-27 08:50:41.867 [info] Native locator: Refresh finished in 13559 ms
+2025-01-27 08:50:46.392 [info] Starting Pylance language server.
+2025-01-27 09:01:43.096 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:04:50.988 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:05:58.742 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:06:14.538 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:15:44.641 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ryu.py
+2025-01-27 09:17:54.314 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:18:06.675 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:26:45.359 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ryu.py
+2025-01-27 09:28:26.509 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:28:56.339 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:31:47.223 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:41:55.450 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ryu.py
+2025-01-27 09:44:00.798 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:44:52.259 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:49:09.350 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:51:17.346 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 09:54:42.631 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:06:54.356 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py
+2025-01-27 10:09:38.688 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:10:11.144 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:10:20.097 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:12:03.357 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:13:04.180 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:13:05.832 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py
+2025-01-27 10:14:27.668 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:17:06.210 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:17:21.563 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:20:17.858 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:28:58.860 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:32:57.933 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:37:29.808 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:37:46.519 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:39:53.132 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:40:51.537 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:42:25.185 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:44:13.915 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:49:12.081 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 10:49:19.900 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/mape.py
+2025-01-27 11:03:52.906 [info] Discover tests for workspace name: undefined - uri: /home/sdci/vim-emu/examples/sdci.py
+2025-01-27 11:10:04.533 [info] Discover tests for workspace name: undefined - uri: /home/sdci/vim-emu/examples/sdci.py
+2025-01-27 14:45:57.032 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py
+2025-01-27 14:50:02.513 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py

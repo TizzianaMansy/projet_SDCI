@@ -1,0 +1,21 @@
+2025-01-27 15:31:39.978 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-27 15:31:40.271 [info] [Info  - 3:31:40 PM] (1926) Server root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 15:31:40.273 [info] [Info  - 3:31:40 PM] (1926) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-27 15:31:40.274 [info] [Info  - 3:31:40 PM] (1926) Starting service instance "dockers"
+2025-01-27 15:31:42.412 [info] [Info  - 3:31:42 PM] (1926) Setting environmentName for service "dockers": "3.8.10 (usr venv)"
+2025-01-27 15:31:42.541 [info] [Info  - 3:31:42 PM] (1926) Setting pythonPath for service "dockers": "/bin/python3"
+2025-01-27 15:31:42.646 [info] [Info  - 3:31:42 PM] (1926) No include entries specified; assuming /home/sdci/sdci/dockers
+2025-01-27 15:31:42.680 [info] [Info  - 3:31:42 PM] (1926) Auto-excluding **/node_modules
+2025-01-27 15:31:42.696 [info] [Info  - 3:31:42 PM] (1926) Auto-excluding **/__pycache__
+2025-01-27 15:31:42.697 [info] [Info  - 3:31:42 PM] (1926) Auto-excluding **/.*
+2025-01-27 15:31:42.697 [info] [Info  - 3:31:42 PM] (1926) Assuming Python version 3.8.10.final.0
+2025-01-27 15:31:42.757 [info] [Info  - 3:31:42 PM] (1926) Found 4 source files
+2025-01-27 15:31:50.623 [info] [Info  - 3:31:50 PM] (1926) Background analysis(1) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 15:31:50.623 [info] [Info  - 3:31:50 PM] (1926) Background analysis(1) started
+2025-01-27 15:31:50.623 [info] [Info  - 3:31:50 PM] (1926) Indexer background runner(2) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-27 15:31:50.623 [info] [Info  - 3:31:50 PM] (1926) Indexing(2) started
+2025-01-27 15:31:51.113 [info] [Info  - 3:31:51 PM] (1926) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/sdci/dockers/ordonnanceur.py (5752ms)
+2025-01-27 15:31:53.969 [info] [Info  - 3:31:53 PM] (1926) [IDX(2)] Long operation: scan packages file:///home/sdci/sdci/dockers (7785ms)
+2025-01-27 15:31:53.972 [info] [Info  - 3:31:53 PM] (1926) scanned(2) 174 files over 1 exec env
+2025-01-27 15:31:55.600 [info] [Info  - 3:31:55 PM] (1926) indexed(2) 174 files over 1 exec env
+2025-01-27 15:31:55.835 [info] [Info  - 3:31:55 PM] (1926) Indexing finished(2).

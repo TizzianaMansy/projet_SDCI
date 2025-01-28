@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.703"
+  },
+  "devDependencies": {
+    "@types/aws4": "^1.11.6",
+    "@types/body-parser": "^1.19.5",
+    "@types/caseless": "^0.12.5",
+    "@types/express": "^5.0.0",
+    "@types/extend": "^3.0.4",
+    "@types/forever-agent": "^0.6.4",
+    "@types/http-signature": "^1.4.0",
+    "@types/is-typedarray": "^1.0.2",
+    "@types/isstream": "^0.1.2",
+    "@types/json-stringify-safe": "^5.0.3",
+    "@types/merge-descriptors": "^1.0.3",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^22.10.7",
+    "@types/request": "^2.48.12",
+    "@types/require-directory": "^2.1.6",
+    "@types/serve-static": "^1.15.7",
+    "@types/yargs": "^17.0.33",
+    "@types/yargs-parser": "^21.0.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "127.0.0.1": "linux"
+    }
+}

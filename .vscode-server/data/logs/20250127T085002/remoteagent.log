@@ -1,0 +1,22 @@
+2025-01-27 08:50:03.183 [info] 
+
+
+
+
+2025-01-27 08:50:03.224 [info] Extension host agent started.
+2025-01-27 08:50:03.462 [error] [<unknown>][c734a4cc][ManagementConnection] Unknown reconnection token (never seen).
+2025-01-27 08:50:19.018 [info] [<unknown>][77ba4df9][ManagementConnection] New connection established.
+2025-01-27 08:50:19.021 [info] [<unknown>][6115992c][ExtensionHostConnection] New connection established.
+2025-01-27 08:50:19.036 [info] [<unknown>][6115992c][ExtensionHostConnection] <1729> Launched Extension Host Process.
+2025-01-27 08:55:03.245 [info] New EH opened, aborting shutdown
+2025-01-27 08:55:03.253 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/sdci/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-27 11:16:53.374 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 11:46:20.026 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 12:12:16.047 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 12:12:23.007 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 12:21:56.605 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 12:59:11.090 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 13:09:08.160 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 14:19:07.993 [warning] No ptyHost heartbeat after 6 seconds

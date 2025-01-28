@@ -1,0 +1,23 @@
+2025-01-28 08:44:41.452 [info] Can't use the Electron fetcher in this environment.
+2025-01-28 08:44:41.452 [info] Using the Node fetch fetcher.
+2025-01-28 08:44:41.452 [info] Initializing Git extension service.
+2025-01-28 08:44:41.452 [info] Successfully activated the vscode.git extension.
+2025-01-28 08:44:41.452 [info] Enablement state of the vscode.git extension: true.
+2025-01-28 08:44:41.452 [info] Successfully registered Git commit message provider.
+2025-01-28 08:44:42.872 [info] Logged in as TizzianaMansy
+2025-01-28 08:44:52.490 [info] Got Copilot token for TizzianaMansy
+2025-01-28 08:44:55.200 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-28 08:44:55.200 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-28 08:44:55.372 [info] Registering default platform agent...
+2025-01-28 08:44:59.054 [info] Fetched model metadata in 6552ms d745be03-215d-4fc7-929a-64288d9eea73
+2025-01-28 08:44:59.120 [info] activationBlocker from 'languageModelAccess' took for 16809ms
+2025-01-28 09:00:16.953 [info] Fetched model metadata in 522ms 406dbb7d-5a22-4bae-a83d-21ade2d0c07d
+2025-01-28 09:09:52.521 [info] Logged in as TizzianaMansy
+2025-01-28 09:09:53.302 [info] Got Copilot token for TizzianaMansy
+2025-01-28 09:09:53.357 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-28 09:24:59.284 [info] Fetched model metadata in 3364ms c65c7fb9-61a3-4f68-89a2-ce2bfe07b1b2
+2025-01-28 09:36:42.408 [info] Logged in as TizzianaMansy
+2025-01-28 09:36:48.423 [info] Got Copilot token for TizzianaMansy
+2025-01-28 09:36:49.808 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-28 09:36:53.923 [info] Fetched model metadata in 2624ms e0c515b1-08c8-4bc2-83c3-38fd8d85bfa0
+2025-01-28 09:51:56.175 [info] Fetched model metadata in 1832ms 2638833d-91f1-4807-a766-31f6f209d4bd

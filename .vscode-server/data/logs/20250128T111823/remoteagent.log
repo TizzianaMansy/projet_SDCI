@@ -1,0 +1,13 @@
+2025-01-28 11:18:24.221 [info] 
+
+
+
+
+2025-01-28 11:18:24.264 [info] Extension host agent started.
+2025-01-28 11:18:24.565 [info] [<unknown>][9cd35bc9][ManagementConnection] New connection established.
+2025-01-28 11:18:24.578 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] New connection established.
+2025-01-28 11:18:25.539 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] <1656> Launched Extension Host Process.
+2025-01-28 11:18:27.123 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-01-28 11:23:24.284 [info] New EH opened, aborting shutdown
+2025-01-28 11:35:35.522 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
+2025-01-28 11:35:55.827 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.

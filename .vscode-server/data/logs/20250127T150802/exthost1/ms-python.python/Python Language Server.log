@@ -1,0 +1,21 @@
+2025-01-27 15:17:48.568 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-27 15:17:48.720 [info] [Info  - 3:17:48 PM] (8513) Server root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 15:17:48.722 [info] [Info  - 3:17:48 PM] (8513) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-27 15:17:48.723 [info] [Info  - 3:17:48 PM] (8513) Starting service instance "dockers"
+2025-01-27 15:17:48.862 [info] [Info  - 3:17:48 PM] (8513) Setting environmentName for service "dockers": "3.8.10 (usr venv)"
+2025-01-27 15:17:48.876 [info] [Info  - 3:17:48 PM] (8513) Setting pythonPath for service "dockers": "/bin/python3"
+2025-01-27 15:17:48.899 [info] [Info  - 3:17:48 PM] (8513) No include entries specified; assuming /home/sdci/sdci/dockers
+2025-01-27 15:17:48.899 [info] [Info  - 3:17:48 PM] (8513) Auto-excluding **/node_modules
+2025-01-27 15:17:48.899 [info] [Info  - 3:17:48 PM] (8513) Auto-excluding **/__pycache__
+2025-01-27 15:17:48.899 [info] [Info  - 3:17:48 PM] (8513) Auto-excluding **/.*
+2025-01-27 15:17:48.913 [info] [Info  - 3:17:48 PM] (8513) Assuming Python version 3.8.10.final.0
+2025-01-27 15:17:49.299 [info] [Info  - 3:17:49 PM] (8513) Found 4 source files
+2025-01-27 15:17:51.556 [info] [Info  - 3:17:51 PM] (8513) Background analysis(1) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 15:17:51.576 [info] [Info  - 3:17:51 PM] (8513) Background analysis(1) started
+2025-01-27 15:17:52.123 [info] [Info  - 3:17:52 PM] (8513) Indexer background runner(2) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-27 15:17:52.141 [info] [Info  - 3:17:52 PM] (8513) Indexing(2) started
+2025-01-27 15:17:55.775 [info] [Info  - 3:17:55 PM] (8513) [BG(1)] Long operation: SemanticTokens range 0:0 - 47:35 at file:///home/sdci/sdci/dockers/ordonnanceur.py (3746ms)
+2025-01-27 15:17:58.522 [info] [Info  - 3:17:58 PM] (8513) [IDX(2)] Long operation: scan packages file:///home/sdci/sdci/dockers (5972ms)
+2025-01-27 15:17:58.522 [info] [Info  - 3:17:58 PM] (8513) scanned(2) 174 files over 1 exec env
+2025-01-27 15:17:59.536 [info] [Info  - 3:17:59 PM] (8513) indexed(2) 174 files over 1 exec env
+2025-01-27 15:17:59.718 [info] [Info  - 3:17:59 PM] (8513) Indexing finished(2).

@@ -1,0 +1,143 @@
+from scapy.all import *
+import time
+import threading
+import queue
+from flask import Flask, jsonify
+
+
+# Flask app
+app = Flask(__name__)
+
+
+# Packet queue for different priorities
+priority_queues = {
+    "gf1": queue.Queue(),
+    "gf2": queue.Queue(),
+    "gf3": queue.Queue(),
+}
+
+
+# IP addresses for different hosts
+gf1_ip = "10.0.0.30"
+gf2_ip = "10.0.0.40"
+gf3_ip = "10.0.0.50"
+
+
+# Define the VNF interface (e.g., interface connected to the switch)
+vnf_interface = "eth2-vnf"
+
+
+# Flags to control threads
+capture_running = False
+send_running = False
+
+
+# Threads
+capture_thread = None
+send_thread = None
+
+
+# Function to process packets and prioritize based on source IP
+def process_packet(pkt):
+    if pkt.haslayer(IP):
+        packet_json = packet_to_json(pkt)  # Convert to JSON-compatible format
+        if pkt[IP].src == gf1_ip:
+            priority_queues["gf1"].put(packet_json)
+        elif pkt[IP].src == gf2_ip:
+            priority_queues["gf2"].put(packet_json)
+        elif pkt[IP].src == gf3_ip:
+            priority_queues["gf3"].put(packet_json)
+        else:
+            print(f"Unknown source IP: {pkt[IP].src}")
+
+
+# Function to send packets back to switch s2
+def send_to_s2():
+    global send_running
+    while send_running:
+        for priority in ["gf1", "gf2", "gf3"]:
+            if not priority_queues[priority].empty():
+                pkt_data = priority_queues[priority].get()
+                pkt = rebuild_packet(pkt_data)  # Rebuild packet from JSON data
+                sendp(pkt, iface=vnf_interface)
+                print(f"Sent packet from {pkt[IP].src} to {pkt[IP].dst} with MAC {pkt[Ether].dst}")
+        time.sleep(0.1)
+
+
+# Function to capture packets from the network and pass to the processing function
+def capture_packets():
+    global capture_running
+    sniff(iface=vnf_interface, prn=process_packet, store=0, stop_filter=lambda x: not capture_running)
+
+
+# Convert a Scapy packet to JSON-compatible format
+def packet_to_json(pkt):
+    return {
+        "src_ip": pkt[IP].src if pkt.haslayer(IP) else None,
+        "dst_ip": pkt[IP].dst if pkt.haslayer(IP) else None,
+        "src_mac": pkt[Ether].src if pkt.haslayer(Ether) else None,
+        "dst_mac": pkt[Ether].dst if pkt.haslayer(Ether) else None,
+        "payload": str(bytes(pkt[Raw])) if pkt.haslayer(Raw) else None,
+    }
+
+
+# Rebuild a Scapy packet from JSON-compatible data
+def rebuild_packet(pkt_data):
+    pkt = Ether(src=pkt_data["src_mac"], dst=pkt_data["dst_mac"]) / \
+          IP(src=pkt_data["src_ip"], dst="10.0.0.20")
+    if pkt_data["payload"]:
+        pkt /= Raw(load=bytes(pkt_data["payload"], "utf-8"))
+    del pkt[IP].chksum  # Force checksum recalculation
+    pkt = pkt.__class__(bytes(pkt))  # Rebuild packet
+    return pkt
+
+
+# API endpoint to start threads
+@app.route('/start_ordo', methods=['POST'])
+def start_threads():
+    global capture_thread, send_thread, capture_running, send_running
+
+    if not (capture_running or send_running):  # Only start if not already running
+        capture_running = True
+        send_running = True
+
+        # Start threads
+        capture_thread = threading.Thread(target=capture_packets, daemon=True)
+        send_thread = threading.Thread(target=send_to_s2, daemon=True)
+
+        capture_thread.start()
+        send_thread.start()
+
+        return jsonify({"message": "Threads started"}), 200
+    else:
+        return jsonify({"message": "Threads are already running"}), 400
+
+
+# API endpoint to stop threads
+@app.route('/stop_ordo', methods=['POST'])
+def stop_threads():
+    global capture_running, send_running
+
+    if capture_running or send_running:
+        capture_running = False
+        send_running = False
+
+        return jsonify({"message": "Threads stopping..."}), 200
+    else:
+        return jsonify({"message": "Threads are not running"}), 400
+
+
+# API endpoint to check thread status
+@app.route('/status', methods=['GET'])
+def check_status():
+    return jsonify({
+        "capture_running": capture_running,
+        "send_running": send_running
+    }), 200
+
+
+# Run Flask app
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000)
+
+

@@ -1,0 +1,41 @@
+2025-01-27 08:50:42.537 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-27 08:50:45.977 [info] [Info  - 8:50:45 AM] (1976) Server root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 08:50:46.089 [info] [Info  - 8:50:46 AM] (1976) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-27 08:50:46.192 [info] [Info  - 8:50:46 AM] (1976) Starting service instance "dockers"
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) Setting environmentName for service "dockers": "3.8.10 (usr venv)"
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) Setting pythonPath for service "dockers": "/bin/python3"
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) No include entries specified; assuming /home/sdci/sdci/dockers
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) Auto-excluding **/node_modules
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) Auto-excluding **/__pycache__
+2025-01-27 08:50:46.853 [info] [Info  - 8:50:46 AM] (1976) Auto-excluding **/.*
+2025-01-27 08:50:46.921 [info] [Info  - 8:50:46 AM] (1976) Assuming Python version 3.8.10.final.0
+2025-01-27 08:50:48.170 [info] [Info  - 8:50:48 AM] (1976) Found 4 source files
+2025-01-27 08:51:01.593 [info] [Info  - 8:51:01 AM] (1976) Background analysis(1) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 08:51:01.593 [info] [Info  - 8:51:01 AM] (1976) Background analysis(1) started
+2025-01-27 08:51:01.593 [info] [Info  - 8:51:01 AM] (1976) Indexer background runner(2) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-27 08:51:01.593 [info] [Info  - 8:51:01 AM] (1976) Indexing(2) started
+2025-01-27 08:51:01.593 [info] [Info  - 8:51:01 AM] (1976) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/sdci/dockers/mape.py (6488ms)
+2025-01-27 08:51:03.111 [info] [Info  - 8:51:03 AM] (1976) [IDX(2)] Long operation: scan packages file:///home/sdci/sdci/dockers (7922ms)
+2025-01-27 08:51:03.111 [info] [Info  - 8:51:03 AM] (1976) scanned(2) 174 files over 1 exec env
+2025-01-27 08:51:04.352 [info] [Info  - 8:51:04 AM] (1976) indexed(2) 174 files over 1 exec env
+2025-01-27 08:51:04.475 [info] [Info  - 8:51:04 AM] (1976) Indexing finished(2).
+2025-01-27 09:04:35.458 [info] [Info  - 9:04:35 AM] (1976) Starting service instance "<default>"
+2025-01-27 09:04:36.843 [info] [Info  - 9:04:36 AM] (1976) Setting environmentName for service "<default>": "3.8.10 (usr venv)"
+2025-01-27 09:04:36.844 [info] [Info  - 9:04:36 AM] (1976) Setting pythonPath for service "<default>": "/bin/python3"
+2025-01-27 09:04:36.845 [info] [Info  - 9:04:36 AM] (1976) No include entries specified; assuming /<default workspace root>
+2025-01-27 09:04:36.845 [info] [Info  - 9:04:36 AM] (1976) Auto-excluding **/node_modules
+2025-01-27 09:04:36.849 [info] [Info  - 9:04:36 AM] (1976) Auto-excluding **/__pycache__
+2025-01-27 09:04:36.853 [info] [Info  - 9:04:36 AM] (1976) Auto-excluding **/.*
+2025-01-27 09:04:37.334 [info] [Info  - 9:04:37 AM] (1976) Assuming Python version 3.8.10.final.0
+2025-01-27 09:04:38.580 [info] [Error - 9:04:38 AM] (1976) File or directory "/<default workspace root>" does not exist.
+2025-01-27 09:04:38.608 [info] [Info  - 9:04:38 AM] (1976) No source files found.
+2025-01-27 09:04:40.578 [info] [Info  - 9:04:40 AM] (1976) Background analysis(3) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 09:04:40.582 [info] [Info  - 9:04:40 AM] (1976) Background analysis(3) started
+2025-01-27 09:15:37.771 [info] [Info  - 9:15:37 AM] (1976) [BG(1)] Long operation: checking: file:///home/sdci/sdci/dockers/ryu.py (2316ms)
+2025-01-27 09:15:37.865 [info] [Info  - 9:15:37 AM] (1976) [BG(1)] Long operation: analyzing: file:///home/sdci/sdci/dockers/ryu.py (2380ms)
+2025-01-27 09:43:14.926 [info] [Info  - 9:43:14 AM] (1976) [BG(1)] Long operation: checking: file:///home/sdci/sdci/dockers/mape.py (3651ms)
+2025-01-27 09:43:14.928 [info] [Info  - 9:43:14 AM] (1976) [BG(1)] Long operation: analyzing: file:///home/sdci/sdci/dockers/mape.py (3893ms)
+2025-01-27 09:46:10.769 [info] [Info  - 9:46:10 AM] (1976) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/vim-emu/examples/sdci.py (5818ms)
+2025-01-27 10:48:21.708 [info] [Info  - 10:48:21 AM] (1976) [BG(1)] Long operation: SemanticTokens delta previousResultId:1737974890981 at file:///home/sdci/sdci/dockers/mape.py (2604ms)
+2025-01-27 11:03:26.944 [info] [Info  - 11:03:26 AM] (1976) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/vim-emu/examples/sdci.py (4942ms)
+2025-01-27 14:46:06.286 [info] [Info  - 2:46:06 PM] (1976) [BG(1)] Long operation: SemanticTokens delta previousResultId:1737972742980 at file:///home/sdci/sdci/dockers/ordonnanceur.py (13982ms)

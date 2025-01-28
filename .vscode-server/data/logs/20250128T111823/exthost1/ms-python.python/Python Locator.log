@@ -1,0 +1,32 @@
+2025-01-28 11:18:39.082 [info] Starting Python Locator /home/sdci/.vscode-server/extensions/ms-python.python-2024.22.2/python-env-tools/bin/pet server
+2025-01-28 11:18:39.965 [info] Discovered env: /usr/bin/python2
+2025-01-28 11:18:40.026 [info] Discovered env: /usr/bin/python2.7
+2025-01-28 11:18:40.093 [info] Discovered env: /usr/bin/python3
+2025-01-28 11:18:40.155 [info] Discovered env: /usr/bin/python3.8
+2025-01-28 11:18:40.193 [info] Discovered env: /bin/python2
+2025-01-28 11:18:40.241 [info] Discovered env: /bin/python2.7
+2025-01-28 11:18:40.243 [info] Discovered env: /bin/python3
+2025-01-28 11:18:40.335 [info] Discovered env: /bin/python3.8
+2025-01-28 11:18:40.839 [info] Locator Conda took 347.427857ms
+2025-01-28 11:18:40.839 [info] Locator Homebrew took 558.052µs
+2025-01-28 11:18:40.839 [info] Locator LinuxGlobal took 352.700912ms
+2025-01-28 11:18:40.839 [info] Locator PipEnv took 34.206µs
+2025-01-28 11:18:40.839 [info] Locator Poetry took 14.007809ms
+2025-01-28 11:18:40.839 [info] Locator PyEnv took 6.490663ms
+2025-01-28 11:18:40.839 [info] Locator Venv took 5.721µs
+2025-01-28 11:18:40.839 [info] Locator VirtualEnv took 9.348µs
+2025-01-28 11:18:40.839 [info] Locator VirtualEnvWrapper took 11.201µs
+2025-01-28 11:18:40.839 [info] Locator GlobalVirtualEnvs took 636.782µs
+2025-01-28 11:18:40.839 [info] Locator Locators took 357.584277ms
+2025-01-28 11:18:40.839 [info] Locator Path took 274.47913ms
+2025-01-28 11:18:40.839 [info] Locator Workspaces took 48.214011ms
+2025-01-28 11:18:40.839 [info] Refresh completed in 368ms
+2025-01-28 11:18:40.840 [info] Resolved Python Environment /bin/python3
+2025-01-28 11:18:42.104 [info] Resolved /usr/bin/python2
+2025-01-28 11:18:43.111 [info] Resolved /usr/bin/python2.7
+2025-01-28 11:18:43.112 [info] Resolved /usr/bin/python3
+2025-01-28 11:18:43.113 [info] Resolved /usr/bin/python3.8
+2025-01-28 11:18:43.113 [info] Resolved /bin/python2
+2025-01-28 11:18:43.114 [info] Resolved /bin/python2.7
+2025-01-28 11:18:43.296 [info] Resolved /bin/python3
+2025-01-28 11:18:43.301 [info] Resolved /bin/python3.8

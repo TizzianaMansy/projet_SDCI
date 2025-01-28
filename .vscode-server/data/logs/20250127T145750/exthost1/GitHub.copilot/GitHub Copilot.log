@@ -1,0 +1,9 @@
+2025-01-27 14:58:05.841 [info] [certificates] Removed 1 expired certificates
+2025-01-27 14:58:08.828 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 14:58:09.037 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 14:58:10.597 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 14:58:10.598 [info] [code-referencing] Public code references are enabled.
+2025-01-27 15:00:30.641 [warning] [relatedFiles] unknown language dockerfile
+2025-01-27 15:00:31.609 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 286 ms
+2025-01-27 15:00:31.619 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-27 15:00:31.623 [info] [streamChoices] request done: headerRequestId: [6e0678b0-a618-4969-85df-874c01a8f9b1] model deployment ID: [d136-20240927195558]

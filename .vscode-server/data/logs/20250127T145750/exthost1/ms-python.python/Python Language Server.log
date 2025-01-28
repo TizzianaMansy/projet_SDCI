@@ -1,0 +1,23 @@
+2025-01-27 14:58:10.595 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-27 14:58:13.975 [info] [Info  - 2:58:13 PM] (1717) Server root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 14:58:14.052 [info] [Info  - 2:58:14 PM] (1717) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-27 14:58:14.056 [info] [Info  - 2:58:14 PM] (1717) Starting service instance "dockers"
+2025-01-27 14:58:14.195 [info] [Info  - 2:58:14 PM] (1717) Setting environmentName for service "dockers": "3.8.10 (usr venv)"
+2025-01-27 14:58:14.201 [info] [Info  - 2:58:14 PM] (1717) Setting pythonPath for service "dockers": "/bin/python3"
+2025-01-27 14:58:14.203 [info] [Info  - 2:58:14 PM] (1717) No include entries specified; assuming /home/sdci/sdci/dockers
+2025-01-27 14:58:14.204 [info] [Info  - 2:58:14 PM] (1717) Auto-excluding **/node_modules
+2025-01-27 14:58:14.204 [info] [Info  - 2:58:14 PM] (1717) Auto-excluding **/__pycache__
+2025-01-27 14:58:14.204 [info] [Info  - 2:58:14 PM] (1717) Auto-excluding **/.*
+2025-01-27 14:58:14.450 [info] [Info  - 2:58:14 PM] (1717) Assuming Python version 3.8.10.final.0
+2025-01-27 14:58:15.733 [info] [Info  - 2:58:15 PM] (1717) Found 4 source files
+2025-01-27 14:58:24.975 [info] [Info  - 2:58:24 PM] (1717) Background analysis(1) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-27 14:58:24.975 [info] [Info  - 2:58:24 PM] (1717) Background analysis(1) started
+2025-01-27 14:58:24.975 [info] [Info  - 2:58:24 PM] (1717) Indexer background runner(2) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-27 14:58:24.975 [info] [Info  - 2:58:24 PM] (1717) Indexing(2) started
+2025-01-27 14:58:24.975 [info] [Info  - 2:58:24 PM] (1717) [BG(1)] Long operation: indexing: file:///home/sdci/sdci/dockers/mape.py (3308ms)
+2025-01-27 14:58:29.053 [info] [Info  - 2:58:29 PM] (1717) [BG(1)] Long operation: checking: file:///home/sdci/sdci/dockers/ordonnanceur.py (5171ms)
+2025-01-27 14:58:29.054 [info] [Info  - 2:58:29 PM] (1717) [BG(1)] Long operation: analyzing: file:///home/sdci/sdci/dockers/ordonnanceur.py (5224ms)
+2025-01-27 14:58:29.710 [info] [Info  - 2:58:29 PM] (1717) [IDX(2)] Long operation: scan packages file:///home/sdci/sdci/dockers (7265ms)
+2025-01-27 14:58:29.716 [info] [Info  - 2:58:29 PM] (1717) scanned(2) 174 files over 1 exec env
+2025-01-27 14:58:31.330 [info] [Info  - 2:58:31 PM] (1717) indexed(2) 174 files over 1 exec env
+2025-01-27 14:58:31.507 [info] [Info  - 2:58:31 PM] (1717) Indexing finished(2).

@@ -1,0 +1,24 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-6951bf2a-765b-44e5-9da1-df6d5b4dcb12
+Extension host agent listening on /tmp/code-6951bf2a-765b-44e5-9da1-df6d5b4dcb12
+
+[11:18:23] 
+
+
+
+
+[11:18:24] Extension host agent started.
+[11:18:24] [<unknown>][9cd35bc9][ManagementConnection] New connection established.
+[11:18:24] [<unknown>][c4d0b7cb][ExtensionHostConnection] New connection established.
+[11:18:25] [<unknown>][c4d0b7cb][ExtensionHostConnection] <1656> Launched Extension Host Process.
+[11:18:27] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+New EH opened, aborting shutdown
+[11:23:24] New EH opened, aborting shutdown
+[11:35:35] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
+[11:35:55] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.

@@ -1,0 +1,22 @@
+2025-01-28 11:18:41.938 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-28 11:18:43.426 [info] [Info  - 11:18:43 AM] (1864) Server root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-28 11:18:43.664 [info] [Info  - 11:18:43 AM] (1864) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-28 11:18:43.675 [info] [Info  - 11:18:43 AM] (1864) Starting service instance "dockers"
+2025-01-28 11:18:49.750 [info] [Info  - 11:18:49 AM] (1864) Setting environmentName for service "dockers": "3.8.10 (usr venv)"
+2025-01-28 11:18:49.760 [info] [Info  - 11:18:49 AM] (1864) Setting pythonPath for service "dockers": "/bin/python3"
+2025-01-28 11:18:49.760 [info] [Info  - 11:18:49 AM] (1864) No include entries specified; assuming /home/sdci/sdci/dockers
+2025-01-28 11:18:49.760 [info] [Info  - 11:18:49 AM] (1864) Auto-excluding **/node_modules
+2025-01-28 11:18:49.760 [info] [Info  - 11:18:49 AM] (1864) Auto-excluding **/__pycache__
+2025-01-28 11:18:49.760 [info] [Info  - 11:18:49 AM] (1864) Auto-excluding **/.*
+2025-01-28 11:18:49.935 [info] [Info  - 11:18:49 AM] (1864) Assuming Python version 3.8.10.final.0
+2025-01-28 11:18:50.659 [info] [Info  - 11:18:50 AM] (1864) Found 4 source files
+2025-01-28 11:18:54.504 [info] [Info  - 11:18:54 AM] (1864) [FG] Long operation: parsing: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist/typeshed-fallback/stdlib/builtins.pyi (2158ms)
+2025-01-28 11:18:56.731 [info] [Info  - 11:18:56 AM] (1864) Background analysis(1) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-28 11:18:56.757 [info] [Info  - 11:18:56 AM] (1864) Background analysis(1) started
+2025-01-28 11:18:59.181 [info] [Info  - 11:18:59 AM] (1864) Indexer background runner(2) root directory: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-28 11:18:59.182 [info] [Info  - 11:18:59 AM] (1864) Indexing(2) started
+2025-01-28 11:19:04.192 [info] [Info  - 11:19:04 AM] (1864) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/sdci/dockers/mape.py (6562ms)
+2025-01-28 11:19:06.656 [info] [Info  - 11:19:06 AM] (1864) [IDX(2)] Long operation: scan packages file:///home/sdci/sdci/dockers (6312ms)
+2025-01-28 11:19:06.660 [info] [Info  - 11:19:06 AM] (1864) scanned(2) 174 files over 1 exec env
+2025-01-28 11:19:08.607 [info] [Info  - 11:19:08 AM] (1864) indexed(2) 174 files over 1 exec env
+2025-01-28 11:19:08.761 [info] [Info  - 11:19:08 AM] (1864) Indexing finished(2).

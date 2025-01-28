@@ -1,0 +1,13 @@
+2025-01-27 16:50:03.644 [info] [certificates] Removed 1 expired certificates
+2025-01-27 16:50:04.909 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 16:50:05.334 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 16:50:06.937 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 16:50:06.941 [info] [code-referencing] Public code references are enabled.
+2025-01-27 17:15:06.920 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 17:15:06.930 [info] [code-referencing] Public code references are enabled.
+2025-01-27 17:15:25.177 [warning] [relatedFiles] unknown language dockerfile
+2025-01-27 17:40:08.580 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 17:40:08.588 [info] [code-referencing] Public code references are enabled.
+2025-01-27 17:55:04.993 [warning] [relatedFiles] unknown language python
+2025-01-27 18:05:15.066 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-01-27 18:05:15.067 [info] [code-referencing] Public code references are enabled.

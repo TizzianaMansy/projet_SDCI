@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.703"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/yargs": "^17.0.33"
+  }
+}

@@ -1,0 +1,16 @@
+2025-01-26 15:53:12.857 [info] 
+
+
+
+
+2025-01-26 15:53:12.889 [info] Extension host agent started.
+2025-01-26 15:53:13.126 [info] [<unknown>][42e47a00][ExtensionHostConnection] New connection established.
+2025-01-26 15:53:13.137 [info] [<unknown>][c734a4cc][ManagementConnection] New connection established.
+2025-01-26 15:53:14.203 [info] [<unknown>][42e47a00][ExtensionHostConnection] <16821> Launched Extension Host Process.
+2025-01-26 15:58:12.897 [info] New EH opened, aborting shutdown
+2025-01-26 16:54:06.868 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-26 17:28:02.943 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-26 18:41:12.025 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-26 19:15:19.164 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-26 20:32:21.223 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-27 08:00:42.724 [warning] No ptyHost heartbeat after 6 seconds

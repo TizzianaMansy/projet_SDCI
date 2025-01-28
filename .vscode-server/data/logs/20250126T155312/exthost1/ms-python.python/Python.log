@@ -1,0 +1,13 @@
+2025-01-26 15:53:28.598 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-26 15:53:28.598 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-01-26 15:53:28.598 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-26 15:53:28.598 [info] Experiment 'pythonTestAdapter' is active
+2025-01-26 15:53:28.598 [info] Native locator: Refresh started
+2025-01-26 15:53:28.598 [info] Native locator: Refresh started
+2025-01-26 15:53:28.610 [info] > pyenv which python
+2025-01-26 15:53:28.610 [info] cwd: .
+2025-01-26 15:53:30.333 [info] Python interpreter path: /bin/python3
+2025-01-26 15:53:32.235 [info] Native locator: Refresh finished in 10525 ms
+2025-01-26 15:53:32.477 [info] Starting Pylance language server.
+2025-01-26 16:02:47.819 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py
+2025-01-26 16:03:44.561 [info] Discover tests for workspace name: dockers - uri: /home/sdci/sdci/dockers/ordonnanceur.py

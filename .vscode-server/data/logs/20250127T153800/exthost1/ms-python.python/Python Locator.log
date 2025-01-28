@@ -1,0 +1,31 @@
+2025-01-27 15:38:12.217 [info] Starting Python Locator /home/sdci/.vscode-server/extensions/ms-python.python-2024.22.2/python-env-tools/bin/pet server
+2025-01-27 15:38:14.170 [info] Discovered env: /bin/python2
+2025-01-27 15:38:14.172 [info] Discovered env: /usr/bin/python2
+2025-01-27 15:38:14.185 [info] Discovered env: /usr/bin/python2.7
+2025-01-27 15:38:14.196 [info] Discovered env: /usr/bin/python3
+2025-01-27 15:38:14.366 [info] Discovered env: /usr/bin/python3.8
+2025-01-27 15:38:15.670 [info] Discovered env: /bin/python2.7
+2025-01-27 15:38:15.848 [info] Discovered env: /bin/python3
+2025-01-27 15:38:15.901 [info] Discovered env: /bin/python3.8
+2025-01-27 15:38:16.415 [info] Locator Conda took 321.705793ms
+2025-01-27 15:38:16.415 [info] Locator Homebrew took 145.837µs
+2025-01-27 15:38:16.415 [info] Locator LinuxGlobal took 388.141192ms
+2025-01-27 15:38:16.415 [info] Locator PipEnv took 9.649µs
+2025-01-27 15:38:16.415 [info] Locator Poetry took 92.736µs
+2025-01-27 15:38:16.415 [info] Locator PyEnv took 3.356518ms
+2025-01-27 15:38:16.415 [info] Locator Venv took 7.815µs
+2025-01-27 15:38:16.415 [info] Locator VirtualEnv took 5.18µs
+2025-01-27 15:38:16.415 [info] Locator VirtualEnvWrapper took 15.47µs
+2025-01-27 15:38:16.415 [info] Locator GlobalVirtualEnvs took 80.614µs
+2025-01-27 15:38:16.415 [info] Locator Locators took 390.991347ms
+2025-01-27 15:38:16.415 [info] Locator Path took 343.149119ms
+2025-01-27 15:38:16.415 [info] Locator Workspaces took 52.949975ms
+2025-01-27 15:38:16.415 [info] Refresh completed in 397ms
+2025-01-27 15:38:16.416 [info] Resolved Python Environment /bin/python3
+2025-01-27 15:38:16.576 [info] Resolved /usr/bin/python2
+2025-01-27 15:38:16.578 [info] Resolved /usr/bin/python2.7
+2025-01-27 15:38:16.589 [info] Resolved /usr/bin/python3
+2025-01-27 15:38:16.589 [info] Resolved /usr/bin/python3.8
+2025-01-27 15:38:16.589 [info] Resolved /bin/python2.7
+2025-01-27 15:38:16.590 [info] Resolved /bin/python3
+2025-01-27 15:38:16.590 [info] Resolved /bin/python3.8

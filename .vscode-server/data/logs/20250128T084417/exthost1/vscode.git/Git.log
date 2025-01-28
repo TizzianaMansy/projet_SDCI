@@ -1,0 +1,42 @@
+2025-01-28 08:44:41.190 [info] [main] Log level: Info
+2025-01-28 08:44:41.190 [info] [main] Validating found git in: "git"
+2025-01-28 08:44:41.190 [info] [main] Using git "2.25.1" from "git"
+2025-01-28 08:44:41.190 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-28 08:44:41.190 [info] > git rev-parse --show-toplevel [2484ms]
+2025-01-28 08:44:41.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 08:44:41.190 [info] > git rev-parse --show-toplevel [113ms]
+2025-01-28 08:44:41.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 08:44:41.198 [info] > git rev-parse --show-toplevel [55ms]
+2025-01-28 08:44:41.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 08:44:41.448 [info] > git rev-parse --show-toplevel [211ms]
+2025-01-28 08:44:41.448 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 08:44:42.475 [info] > git rev-parse --show-toplevel [194ms]
+2025-01-28 08:44:42.592 [info] > git rev-parse --git-dir --git-common-dir [66ms]
+2025-01-28 08:44:42.638 [info] [Model][openRepository] Opened repository: /home/sdci/sdci/dockers/gctrl
+2025-01-28 08:44:42.660 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-28 08:44:42.836 [info] > git config --get commit.template [122ms]
+2025-01-28 08:44:43.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [234ms]
+2025-01-28 08:44:43.126 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sdci/sdci/dockers/gctrl/.git/refs/remotes/origin/master'
+2025-01-28 08:44:43.566 [info] > git check-ignore -v -z --stdin [110ms]
+2025-01-28 08:44:43.573 [info] > git rev-parse refs/remotes/origin/master [446ms]
+2025-01-28 08:44:43.844 [info] > git status -z -uall [259ms]
+2025-01-28 08:44:43.845 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [236ms]
+2025-01-28 08:44:43.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-01-28 08:44:43.952 [info] > git config --get commit.template [46ms]
+2025-01-28 08:44:44.200 [info] > git config --local branch.master.vscode-merge-base [272ms]
+2025-01-28 08:44:44.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [163ms]
+2025-01-28 08:44:44.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [190ms]
+2025-01-28 08:44:44.492 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sdci/sdci/dockers/gctrl/.git/refs/remotes/origin/master'
+2025-01-28 08:44:44.493 [info] > git merge-base refs/heads/master refs/remotes/origin/master [75ms]
+2025-01-28 08:44:44.531 [info] > git rev-parse refs/remotes/origin/master [39ms]
+2025-01-28 08:44:44.648 [info] > git diff --name-status -z --diff-filter=ADMR 2209448bc5612e27e6e94af839cd4fffdc5e6bbd...refs/remotes/origin/master [142ms]
+2025-01-28 08:44:45.131 [info] > git status -z -uall [588ms]
+2025-01-28 08:44:45.137 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [577ms]
+2025-01-28 08:53:11.176 [info] > git rev-parse --show-toplevel [186ms]
+2025-01-28 08:53:11.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 09:58:54.097 [info] > git rev-parse --show-toplevel [2299ms]
+2025-01-28 09:58:54.154 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 09:59:29.642 [info] > git rev-parse --show-toplevel [578ms]
+2025-01-28 09:59:29.642 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-28 09:59:44.225 [info] > git rev-parse --show-toplevel [2997ms]
+2025-01-28 09:59:44.225 [info] fatal: not a git repository (or any of the parent directories): .git

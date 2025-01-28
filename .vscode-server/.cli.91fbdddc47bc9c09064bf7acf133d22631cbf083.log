@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:45675
+[2025-01-17 10:03:23] info Disposed of connection to running server.
+[2025-01-17 10:03:23] info Checking /home/sdci/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/log.txt and /home/sdci/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/pid.txt for a running server...
+[2025-01-17 10:03:23] info Starting server...
+[2025-01-17 10:03:24] info Server started
+[2025-01-17 11:15:04] info Disposed of connection to running server.

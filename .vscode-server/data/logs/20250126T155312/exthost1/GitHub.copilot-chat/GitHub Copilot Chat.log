@@ -1,0 +1,36 @@
+2025-01-26 15:53:28.998 [info] Can't use the Electron fetcher in this environment.
+2025-01-26 15:53:28.998 [info] Using the Node fetch fetcher.
+2025-01-26 15:53:28.998 [info] Initializing Git extension service.
+2025-01-26 15:53:28.998 [info] Successfully activated the vscode.git extension.
+2025-01-26 15:53:28.998 [info] Enablement state of the vscode.git extension: true.
+2025-01-26 15:53:28.998 [info] Successfully registered Git commit message provider.
+2025-01-26 15:53:29.870 [info] Logged in as TizzianaMansy
+2025-01-26 15:53:31.584 [info] Got Copilot token for TizzianaMansy
+2025-01-26 15:53:32.605 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 15:53:32.605 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-26 15:53:32.628 [info] Registering default platform agent...
+2025-01-26 15:53:33.214 [info] Fetched model metadata in 1578ms 7972ab59-4c7e-476c-b1a3-4b002630dc46
+2025-01-26 15:53:33.216 [info] activationBlocker from 'languageModelAccess' took for 3675ms
+2025-01-26 16:08:47.894 [info] Fetched model metadata in 909ms 32b4f69f-8b2b-449b-8312-ce1c5f9cfb8f
+2025-01-26 16:18:31.666 [info] Logged in as TizzianaMansy
+2025-01-26 16:18:33.202 [info] Got Copilot token for TizzianaMansy
+2025-01-26 16:18:33.337 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 16:57:58.214 [info] Logged in as TizzianaMansy
+2025-01-26 16:57:59.631 [info] Got Copilot token for TizzianaMansy
+2025-01-26 16:58:00.532 [info] Fetched model metadata in 1262388ms 502c3e1f-4571-4995-bd21-1ec1409e1de7
+2025-01-26 17:05:58.153 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 17:13:58.705 [info] Fetched model metadata in 240654ms 5f5028d9-560c-4c7e-8e69-1c810f8739db
+2025-01-26 17:31:58.027 [info] Logged in as TizzianaMansy
+2025-01-26 17:31:59.272 [info] Got Copilot token for TizzianaMansy
+2025-01-26 17:39:58.029 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 17:39:58.988 [info] Fetched model metadata in 240936ms 807c2dfd-41f0-4d61-8947-bfa27aadc568
+2025-01-26 18:00:57.923 [info] Logged in as TizzianaMansy
+2025-01-26 18:00:58.816 [info] Got Copilot token for TizzianaMansy
+2025-01-26 18:06:57.911 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 18:06:58.484 [info] Fetched model metadata in 240570ms 25d26ce8-e78e-4ae1-b2ec-8c65779f1790
+2025-01-26 20:34:57.679 [info] Logged in as TizzianaMansy
+2025-01-26 20:34:58.944 [info] Got Copilot token for TizzianaMansy
+2025-01-26 20:38:58.315 [info] Fetched model metadata in 239323ms 23f226f9-9629-4133-86e7-e37128ae3e5e
+2025-01-26 20:42:57.598 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-26 21:03:57.511 [info] Logged in as TizzianaMansy
+2025-01-26 21:03:58.769 [info] Got Copilot token for TizzianaMansy

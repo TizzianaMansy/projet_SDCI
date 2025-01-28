@@ -1,0 +1,47 @@
+{
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "GitHub Dark",
+    "python.defaultInterpreterPath": "C:\\Python310\\python.exe",
+    "notebook.output.textLineLimit": 50,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "10.6.7.44": "linux",
+        "10.6.7.53": "linux",
+        "127.0.0.1": "linux",
+        "192.168.137.1": "linux"
+    },
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "notebook.cellFocusIndicator": "border",
+    "notebook.editorOptionsCustomizations": {},
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.fontSize": 18,
+    "workbench.editor.empty.hint": "hidden",
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "C_Cpp.default.compilerPath": "c:\\WS\\sim\\omnetpp-6.0\\tools\\win32.x86_64\\mingw64\\bin\\g++.exe",
+    "cmake.configureOnOpen": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "python.createEnvironment.trigger": "off",
+    "editor.fontSize": 16,
+    "makefile.configureOnOpen": true,
+    "cmake.showOptionsMovedNotification": false,
+    "makefile.makePath": "",
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/home/user/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/home/user/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "files.autoSave": "afterDelay"
+}

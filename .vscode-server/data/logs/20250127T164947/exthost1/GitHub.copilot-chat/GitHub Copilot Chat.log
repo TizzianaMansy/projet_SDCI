@@ -1,0 +1,27 @@
+2025-01-27 16:50:03.567 [info] Can't use the Electron fetcher in this environment.
+2025-01-27 16:50:03.567 [info] Using the Node fetch fetcher.
+2025-01-27 16:50:03.567 [info] Initializing Git extension service.
+2025-01-27 16:50:03.567 [info] Successfully activated the vscode.git extension.
+2025-01-27 16:50:03.567 [info] Enablement state of the vscode.git extension: true.
+2025-01-27 16:50:03.567 [info] Successfully registered Git commit message provider.
+2025-01-27 16:50:05.105 [info] Logged in as TizzianaMansy
+2025-01-27 16:50:07.338 [info] Got Copilot token for TizzianaMansy
+2025-01-27 16:50:08.004 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-27 16:50:08.004 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-27 16:50:08.044 [info] Registering default platform agent...
+2025-01-27 16:50:12.000 [info] Fetched model metadata in 4646ms e16a1fee-477b-4e8b-a7ff-4a6bc59ab66f
+2025-01-27 16:50:12.008 [info] activationBlocker from 'languageModelAccess' took for 7891ms
+2025-01-27 17:05:16.139 [info] Fetched model metadata in 2144ms e2a8c029-90f2-4494-b561-b1bd27eb3a82
+2025-01-27 17:15:07.468 [info] Logged in as TizzianaMansy
+2025-01-27 17:15:10.484 [info] Got Copilot token for TizzianaMansy
+2025-01-27 17:15:10.844 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-27 17:30:12.210 [info] Fetched model metadata in 1089ms 3af31c8f-adf4-4a05-8eb2-cd3099ec1706
+2025-01-27 17:40:10.544 [info] Logged in as TizzianaMansy
+2025-01-27 17:40:13.134 [info] Got Copilot token for TizzianaMansy
+2025-01-27 17:40:13.336 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-27 17:40:14.710 [info] Fetched model metadata in 1229ms 10356155-e391-4927-826a-7e63be4568c0
+2025-01-27 17:55:16.619 [info] Fetched model metadata in 1785ms f539dc57-4ff9-4763-9dfc-b684f3821bc7
+2025-01-27 18:05:14.069 [info] Logged in as TizzianaMansy
+2025-01-27 18:05:16.073 [info] Got Copilot token for TizzianaMansy
+2025-01-27 18:05:16.185 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-27 18:20:17.521 [info] Fetched model metadata in 1166ms e4ae5913-ff6a-44cd-b748-1918306f7a40

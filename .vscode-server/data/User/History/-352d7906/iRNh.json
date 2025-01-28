@@ -1,0 +1,7 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "security.workspace.trust.untrustedFiles": "open"
+}
