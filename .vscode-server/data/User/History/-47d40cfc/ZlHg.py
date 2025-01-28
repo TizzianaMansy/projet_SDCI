@@ -28,7 +28,7 @@ class Execute(threading.Thread):
         threading.Thread.__init__(self)
         self.running = True
 
-    def createVNF(self): #creation de la VNF d'ordonnancement
+    def createVNF(self):
         headers = {
             "Content-Type": "application/json"
         }
@@ -40,7 +40,7 @@ class Execute(threading.Thread):
         url = "http://127.0.0.1:5001/restapi/compute/dc1/vnf_ordo"
 
         try:
-            response = requests.put(url, headers=headers, json=payload)
+            response = requests.put(url, headers=headers, json=payload) #creation de la VNF d'ordonnancement
             if response.status_code == 200:
                 print("VNF created successfully:", response.json())
             else:
@@ -48,26 +48,28 @@ class Execute(threading.Thread):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
 
-    def start_ryu_script(self): # lancement du script ryu avec les règles OpenFlow
+    def start_ryu_script(self):
         try:
-            script_path = "./ryu.py"  
+            # Chemin vers le script ryu.py
+            script_path = "./ryu.py"  # Remplacez par le chemin absolu vers votre script
             
+            # Lancement de Ryu avec subprocess
             process = subprocess.Popen(
-                ["ryu-manager", script_path], 
-                stdout=subprocess.PIPE,       
-                stderr=subprocess.PIPE,      
-                universal_newlines=True 
+                ["ryu-manager", script_path],  # Commande pour lancer Ryu
+                stdout=subprocess.PIPE,       # Capture la sortie standard
+                stderr=subprocess.PIPE,       # Capture les erreurs
+                universal_newlines=True       # Garde les chaînes en UTF-8
             )
             
             print(f"Ryu script '{script_path}' lancé avec succès.")
-            return process 
+            return process  # Vous pouvez garder `process` pour arrêter le script plus tard, si nécessaire.
 
         except Exception as e:
             print(f"Erreur lors du lancement de Ryu : {e}")
         
-    def start_ordo(self): # lancement de l'ordonnanceur
+    def start_ordo(self):
         try:
-            response = requests.post("http://172.17.0.8:5000/start_ordo")  # cette adresse est l'IP du docker de la VNF d'ordonnancement
+            response = requests.post("http://172.17.0.8:5000/start_ordo")
             if response.status_code == 200:
                 print("Ordonnaceur started successfully")
             else:
@@ -75,7 +77,7 @@ class Execute(threading.Thread):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
 
-    def stop_ordo(self): # arrêt de l'ordonnanceur
+    def stop_ordo(self):
         try:
             response = requests.post("http://172.17.0.8:5000/stop_ordo")
             if response.status_code == 200:
@@ -112,7 +114,7 @@ class Monitor(threading.Thread):
         self.running = True
         self.threshold = None  
 
-    def createVNF(self): # creation de la VNF de monitoring
+    def createVNF(self):
         headers = {
             "Content-Type": "application/json"
         }
@@ -133,9 +135,9 @@ class Monitor(threading.Thread):
             print("Error:", e)
 
     
-    def start_monitoring(self): # démarrage du monitoring
+    def start_monitoring(self):
         try:
-            response = requests.post("http://172.17.0.7:5000/start") # adresse IP du docker de la VNF de monitoring
+            response = requests.post("http://172.17.0.7:5000/start")
             if response.status_code == 200:
                 print("Monitoring started")
             else:
@@ -143,7 +145,7 @@ class Monitor(threading.Thread):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
 
-    def stop_monitoring(self): # arrêt du monitoring
+    def stop_monitoring(self):
         try:
             response = requests.post("http://172.17.0.7:5000/stop")
             if response.status_code == 200:
@@ -153,14 +155,14 @@ class Monitor(threading.Thread):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
 
-    def calculate_threshold(self): # calcul du seuil de saturation
+    def calculate_threshold(self):
         try:
             response = requests.get("http://172.17.0.7:5000/data")
             if response.status_code == 200:
                 data = response.json()
                 response_times = data.get("last_5_response_times")
                 if response_times:
-                    self.threshold = max(response_times) * 1.25 # threshold = temps de réponse le plus élevé + 25%
+                    self.threshold = max(response_times) * 1.25
                     print("Threshold calculated:", self.threshold)
                 else:
                     print("No response times available")
@@ -169,7 +171,7 @@ class Monitor(threading.Thread):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
 
-    def getdata(self): # récupération des données de monitoring
+    def getdata(self):
         try:
             response = requests.get("http://172.17.0.7:5000/data")
             if response.status_code == 200:
@@ -187,14 +189,14 @@ class Monitor(threading.Thread):
         time.sleep(6)
         self.calculate_threshold() 
         while self.running:
-            if self.threshold: # si on a bien un seuil de saturation
+            if self.threshold:
                 data = self.getdata()
                 if data:
                     response_times = data.get("last_5_response_times")
                     avg_reponse = data.get("average_response_time")
                     if response_times:
-                        if avg_reponse > self.threshold: # on compare le temps de réponse moyen avec le seuil
-                            self.alerts += 1 # déclenchement d'une alerte
+                        if avg_reponse > self.threshold:
+                            self.alerts += 1
                             print("Alert:", self.alerts)
                         else:
                             print(f"No saturation, response time : {avg_reponse}")
@@ -211,11 +213,13 @@ class Monitor(threading.Thread):
 def main():
     monitor = Monitor()
     execute = Execute()
-    monitor.createVNF() # on commence par créer les VNFs
+    monitor.createVNF()
     time.sleep(5)
     execute.createVNF()
     time.sleep(5)
+    #execute.start_ryu_script()
     time.sleep(5)
+    #execute.start_ordo()
     execute.start()
     monitor.start()
     

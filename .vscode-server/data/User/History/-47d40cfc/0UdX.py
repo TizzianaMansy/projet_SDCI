@@ -211,11 +211,13 @@ class Monitor(threading.Thread):
 def main():
     monitor = Monitor()
     execute = Execute()
-    monitor.createVNF() # on commence par créer les VNFs
+    monitor.createVNF()
     time.sleep(5)
     execute.createVNF()
     time.sleep(5)
+    #execute.start_ryu_script()
     time.sleep(5)
+    #execute.start_ordo()
     execute.start()
     monitor.start()
     

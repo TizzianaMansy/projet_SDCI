@@ -22,3 +22,4 @@ New EH opened, aborting shutdown
 [11:23:24] New EH opened, aborting shutdown
 [11:35:35] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
 [11:35:55] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
+[13:00:59] No ptyHost heartbeat after 6 seconds

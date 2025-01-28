@@ -20,3 +20,12 @@
 2025-01-28 11:19:06.660 [info] [Info  - 11:19:06 AM] (1864) scanned(2) 174 files over 1 exec env
 2025-01-28 11:19:08.607 [info] [Info  - 11:19:08 AM] (1864) indexed(2) 174 files over 1 exec env
 2025-01-28 11:19:08.761 [info] [Info  - 11:19:08 AM] (1864) Indexing finished(2).
+2025-01-28 13:07:10.421 [info] [Info  - 1:07:10 PM] (1864) [FG] Long operation: parsing: file:///usr/local/lib/python3.8/dist-packages/_pytest/cacheprovider.py (2068ms)
+2025-01-28 13:07:35.797 [info] [Info  - 1:07:35 PM] (1864) [BG(1)] Long operation: parsing: file:///home/sdci/vim-emu/examples/sdci.py (2446ms)
+2025-01-28 13:07:35.835 [info] [Info  - 1:07:35 PM] (1864) [BG(1)] Long operation: parsing: file:///home/sdci/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist/typeshed-fallback/stdlib/logging/__init__.pyi (2360ms)
+2025-01-28 13:07:35.835 [info] [Info  - 1:07:35 PM] (1864) [BG(1)] Long operation: parsing: file:///home/sdci/containernet/mininet/node.py (6750ms)
+2025-01-28 13:07:36.024 [info] [Info  - 1:07:36 PM] (1864) [BG(1)] Long operation: checking: file:///home/sdci/vim-emu/examples/sdci.py (24604ms)
+2025-01-28 13:07:36.025 [info] [Info  - 1:07:36 PM] (1864) [BG(1)] Long operation: analyzing: file:///home/sdci/vim-emu/examples/sdci.py (27592ms)
+2025-01-28 13:07:41.736 [info] [Info  - 1:07:41 PM] (1864) [BG(1)] Long operation: SemanticTokens full at file:///home/sdci/vim-emu/examples/sdci.py (5512ms)
+2025-01-28 13:08:37.484 [info] [Info  - 1:08:37 PM] (1864) [BG(1)] Long operation: checking: file:///home/sdci/sdci/dockers/mape.py (2280ms)
+2025-01-28 13:08:37.510 [info] [Info  - 1:08:37 PM] (1864) [BG(1)] Long operation: analyzing: file:///home/sdci/sdci/dockers/mape.py (2359ms)

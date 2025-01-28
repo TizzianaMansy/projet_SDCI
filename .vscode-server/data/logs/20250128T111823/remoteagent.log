@@ -11,3 +11,4 @@
 2025-01-28 11:23:24.284 [info] New EH opened, aborting shutdown
 2025-01-28 11:35:35.522 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
 2025-01-28 11:35:55.827 [info] [<unknown>][c4d0b7cb][ExtensionHostConnection] The client has reconnected.
+2025-01-28 13:00:59.376 [warning] No ptyHost heartbeat after 6 seconds

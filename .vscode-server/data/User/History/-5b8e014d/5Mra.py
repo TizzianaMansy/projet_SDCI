@@ -3,7 +3,6 @@ import json
 
 controller_url = "http://localhost:8080/stats/flowentry/add"
 
-# règles de flux pour rediriger le trafic de gf1, gf2 et gf3 vers la VNF
 
 flow_entry_1 = {
      "dpid": 2,

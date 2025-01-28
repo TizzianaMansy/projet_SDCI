@@ -84,32 +84,37 @@ def send_to_s2():
             time.sleep(0.1)
 
 
-# Pour capturer les paquets
+# Function to capture packets from the network and pass to the processing function
 def capture_packets():
     global capture_running
     sniff(iface=vnf_interface, prn=process_packet, store=0, stop_filter=lambda x: not capture_running)  # Sniff packets on the VNF interface
 
 
-# début des threads
+# API endpoint to start threads
 @app.route('/start_ordo', methods=['POST'])
 def start_threads():
     global capture_thread, send_thread, capture_running, send_running
    
-    if not (capture_running or send_running): 
+    if not (capture_running or send_running):  # Only start if not already running
         capture_running = True
         send_running = True
 
+
+        # Start threads
         capture_thread = threading.Thread(target=capture_packets, daemon=True)
         send_thread = threading.Thread(target=send_to_s2, daemon=True)
 
+
         capture_thread.start()
         send_thread.start()
+
 
         return jsonify({"message": "Threads started"}), 200
     else:
         return jsonify({"message": "Threads are already running"}), 400
 
 
+# API endpoint to stop threads
 @app.route('/stop_ordo', methods=['POST'])
 def stop_threads():
     global capture_running, send_running
@@ -125,6 +130,16 @@ def stop_threads():
         return jsonify({"message": "Threads are not running"}), 400
 
 
+# API endpoint to check thread status
+@app.route('/status', methods=['GET'])
+def check_status():
+    return jsonify({
+        "capture_running": capture_running,
+        "send_running": send_running
+    }), 200
+
+
+# Run Flask app
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
 

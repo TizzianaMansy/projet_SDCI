@@ -24,6 +24,7 @@
 # acknowledge the contributions of their colleagues of the SONATA
 # partner consortium (www.sonata-nfv.eu).
 import logging
+from time import sleep
 from mininet.log import setLogLevel
 from emuvim.dcemulator.net import DCNetwork
 from emuvim.api.rest.rest_api_endpoint import RestApiEndpoint
@@ -59,26 +60,24 @@ def create_topology():
     rapi1.start()
 
     #info('*** Adding docker containers\n')
-    d1 = net.addDocker('server', ip='10.0.0.10', dimage='server:latest',dcmd='sh /app/start_server_app.sh')
-    d2 = net.addDocker('gi', ip='10.0.0.20', dimage='gi:latest', dcmd = 'node gateway.js --local_ip "127.0.0.1" --local_port 8181 --local_name ${LOCALNAME} --remote_ip ${REMOTEIP} --remote_port 8080 --remote_name ${REMOTENAME}', environment={"LOCALNAME" : "gwi", "REMOTEIP" : "127.0.0.1", "REMOTENAME":"srv"})
-    d3 = net.addDocker('gf1', ip='10.0.0.30', dimage='gf:latest', dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf1", "REMOTEIP":"127.0.0.1","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev1","REMOTENAMEDEV":"gwf1","PERIOD":3000})
-    d4 = net.addDocker('gf2', ip='10.0.0.40', dimage='gf:latest', dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf2", "REMOTEIP":"127.0.0.1","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev2","REMOTENAMEDEV":"gwf2","PERIOD":3000})
-    d5 = net.addDocker('gf3', ip='10.0.0.50', dimage='gf:latest', dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf3", "REMOTEIP":"127.0.0.1","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev3","REMOTENAMEDEV":"gwf3","PERIOD":3000})
-   
-
+    server = net.addDocker('server', ip='10.0.0.10', mac='00:00:00:00:00:10', dimage='server:latest',dcmd='sh /app/start_server_app.sh')
+    gi = net.addDocker('gi', ip='10.0.0.20', mac='00:00:00:00:00:20', dimage='gi:latest', dcmd = 'sh /app/start_gi.sh', environment={"LOCALNAME" : "gwi", "REMOTEIP" : "10.0.0.10", "REMOTENAME":"srv"})
+    gf1 = net.addDocker('gf1', ip='10.0.0.30',  mac='00:00:00:00:00:30', dimage='gf:latest',  dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf1", "REMOTEIP":"10.0.0.20","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev1","PERIOD":3000})
+    gf2 = net.addDocker('gf2', ip='10.0.0.40', dimage='gf:latest', dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf2", "REMOTEIP":"10.0.0.20","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev2","PERIOD":3000})
+    gf3 = net.addDocker('gf3', ip='10.0.0.50', dimage='gf:latest', dcmd='sh /app/start_gf_device.sh', environment= {"LOCALNAMEGW":"gwf3", "REMOTEIP":"10.0.0.20","REMOTENAMEGW":"gwi","LOCALNAMEDEV":"dev3","PERIOD":3000})
+    
     #info('*** Adding switch\n')
     s1 = net.addSwitch('s1')
     s2 = net.addSwitch('s2')
 
     #info('*** Creating links\n')
     net.addLink(dc1, s2)
-    net.addLink(d2, s2)
-    net.addLink(d3, s1)
-    net.addLink(d4, s1)
-    net.addLink(d5, s1)
+    net.addLink(gi, s2)
+    net.addLink(gf1, s1)
+    net.addLink(gf2, s1)
+    net.addLink(gf3, s1)
     net.addLink(s2, s1)
-    net.addLink(s2, d1)
-    
+    net.addLink(s2, server)
 
     net.start()
     net.CLI()

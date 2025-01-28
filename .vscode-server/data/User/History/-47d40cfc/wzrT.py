@@ -187,7 +187,7 @@ class Monitor(threading.Thread):
         time.sleep(6)
         self.calculate_threshold() 
         while self.running:
-            if self.threshold: # si on a bien un seuil de saturation
+            if self.threshold:
                 data = self.getdata()
                 if data:
                     response_times = data.get("last_5_response_times")
@@ -211,11 +211,13 @@ class Monitor(threading.Thread):
 def main():
     monitor = Monitor()
     execute = Execute()
-    monitor.createVNF() # on commence par créer les VNFs
+    monitor.createVNF()
     time.sleep(5)
     execute.createVNF()
     time.sleep(5)
+    #execute.start_ryu_script()
     time.sleep(5)
+    #execute.start_ordo()
     execute.start()
     monitor.start()
     
